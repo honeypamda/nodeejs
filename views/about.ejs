@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    
+</head>
+<body>
+            <!-- Fixed navbar -->
+
+        <!--div class="navbar navbar-default navbar-fixed-top" role="navigation"-->
+        <div class="navbar navbar-default" role="navigation">
+
+        <div class="container">
+
+        <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        
+            <button type="button" id="sidebarCollapse" class="btn btn-link">
+                    <i class="fas fa-arrow-right"></i>
+                    <span class="icon-bar"></span>
+            </button>
+
+        <!--a class="navbar-brand" href="index.jsp">HB</a-->
+        
+        </div>
+
+
+        <div class="navbar-collapse collapse">
+
+        <ul class="nav navbar-nav navbar-left">
+        
+        <!--ul class="sm sm-vertical sm-simple sm-simple-vertical"-->
+        
+            <li class="active"><a href="index.jsp"><font size = "4">HOME</font></a></li>
+
+            <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><font size = "4">DECORATION</font><b class="caret"></b></a>
+            <ul class="dropdown-menu">
+                <li class="dropdown-header"><font size = "4">DECORATION</font></li>
+                <li><a href="decorationCase.jsp"><font size = "4">DECORATION_CASE</font></a></li>
+                <li><a href="specification.jsp"><font size = "4">DECORATION_PRICE_REFERENCE</font></a></li>
+                <li><a href="decoration_company.jsp"><font size = "4">DECORATION_COMPANY</font></a></li>
+                
+                <li class="divider"></li>
+                <li class="dropdown-header"><font size = "4">Portfolio</font></li>
+                <li><a href="decorationCharge.jsp"><font size = "4">STANDARD_DECORATION_CHARGE</font></a></li>
+                <li><a href="knowHow.jsp"><font size = "4">DECORATION_KNOWHOW</font></a></li>
+                <li><a href="symptom.jsp"><font size = "4">SYMPTOM</font></a></li>
+                
+                <li class="divider"></li>
+                <li class="dropdown-header"><font size = "4">HOUSES</font></li>
+                <li><a href="houseOnSale.jsp"><font size = "4">HOUSES_ON_SALE</font></a></li>
+                <li><a href="houseForRent.jsp"><font size = "4">HOUSE_FOR_RENT</font></a></li>
+                
+            </ul>
+            </li>
+            
+            <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><font size = "4">COMMO</font><b class="caret"></b></a>
+            <ul class="dropdown-menu">
+                <li class="dropdown-header"><font size = "4">COMMO</font></li>
+                <li><a href="commo.jsp"><font size = "4">COMMO</font></a></li>
+                
+                <li class="divider"></li>
+                <li class="dropdown-header"><font size = "4">COMPONENT</font></li>
+                <li><a href="component.jsp"><font size = "4">COMPONENT</font></a></li>
+            </ul>
+            </li> 
+            
+            <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><font size = "4">PURCHASE</font><b class="caret"></b></a>
+            <ul class="dropdown-menu">
+                <li class="dropdown-header"><font size = "4">PURCHASE</font></li>
+                <li><a href="purchaseView.jsp"><font size = "4">PURCHASE</font></a></li>
+                
+                <li class="divider"></li>
+                <li class="dropdown-header"><font size = "4">COMPONENT</font></li>
+            </ul>
+            </li> 
+
+            <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><font size = "4">BLOG_MANAGE</font><b class="caret"></b></a>
+            <ul class="dropdown-menu">
+                <li class="dropdown-header"><font size = "4">BLOG_MANAGE</font></li>
+                <li><a href="https://honey333.herokuapp.com/3"><font size = "4">nn</font></a></li>
+                <li><a href="https://honeypando.com/?room=6"><font size = "4">VIDEO_CONFERENCE</font></a></li>
+                <li><a href="http://192.53.172.12/"><font size = "4">LIVE_STREAM</font></a></li>
+                <li><a href="http://192.168.43.251:3001/"><font size = "4">CHATING_ROOM</font></a></li>
+                <li><a href="http://honey333.com:4000/"><font size = "4">THEMATIC_CHAT_ROOM</font></a></li>
+                                    
+                <li class="divider"></li>
+                <li class="dropdown-header"><font size = "4">Portfolio</font></li>
+                <li><a href="http://honey333.com:8080/HB/Center/toUpperCase.jsp"><font size = "4">CHATING_ROOM</font></a></li>
+                <li><a href="http://192.168.43.251:3001/"><font size = "4">TRANSFER_FILE</font></a></li>
+                
+            </ul>
+            </li>
+                    
+            <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><font size = "4">MEMBERCENTER</font><b class="caret"></b></a>
+            <ul class="dropdown-menu">
+                <li class="dropdown-header"><font size = "4">MEMBER</font></li>
+            
+                <li><a href="memberLogin.jsp"><font size = "4">SIGN_IN</font></a></li>
+                <li><a href="memberRegister.jsp"><font size = "4">REGISTER</font></a></li>
+                <li><a href="logout.jsp"><font size = "4">LOGOUT</font></a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header"><font size = "4">Portfolio</font></li>
+                <li><a href="addMessage.jsp"><font size = "4">CONTACT</font></a></li>
+            </ul>
+            </li>
+            
+        </ul>
+        
+        </div><!--/.nav-collapse -->
+
+        </div>
+        </div>
+
+    <h1><%= text %></h1>
+
+    <h1><%= i18n %></h1> 
+    <h1><%= __('Language')%></h1>
+</body>
+</html>
